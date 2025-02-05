@@ -3,7 +3,7 @@ import toast from 'react-hot-toast';
 import Cookies from 'js-cookie';
 
 const axiosClient = axios.create({
-	baseURL: 'https://webapi.northed.us/v1/',
+	baseURL: 'https://back-sc68.onrender.com/v1/',
 	headers: {
 		Accept: 'application/json',
 		'Content-Type': 'application/json',
