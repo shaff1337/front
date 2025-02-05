@@ -1,0 +1,22 @@
+@layer components {
+    .radio { @apply border-2 px-4 py-3 rounded-md select-none cursor-pointer }
+
+    .radio.active { @apply border-blue-300}
+
+    .radio.inactive {
+        @apply border-accent
+    }
+
+    .radio h5.active {
+        @apply text-blue-300
+    }
+
+    .radio p.active {
+        @apply text-blue-100
+    }
+
+    .radio h5.inactive,
+    .radio p.inactive {
+        @apply text-cove
+    }
+}

@@ -1,0 +1,29 @@
+@layer base {
+    html {
+        @apply h-full
+    }
+
+    body {
+        @apply antialiased font-inter bg-main text-blue-100
+    }
+
+    h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+        @apply font-bold font-nunito leading-5 mb-2
+    }
+
+    a {
+        @apply hover:underline
+    }
+
+    button {
+        @apply focus:ring-0 focus:ring-offset-0 rounded-md;
+    }
+
+    .new-line {
+        white-space: pre-line;
+    }
+
+    /*input {*/
+    /*    @apply px-4 h-12 text-sm text-cove rounded-lg border-2 border-accent focus:border-blue-300 focus:outline-none bg-transparent placeholder-cove transition*/
+    /*}*/
+}

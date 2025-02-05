@@ -1,0 +1,24 @@
+@layer components {
+    .auth {
+        @apply flex flex-col grow shrink-0 justify-center items-center h-screen relative
+    }
+    .auth .auth-container {
+        @apply w-full lg:w-fit md:w-3/5 px-2
+    }
+
+    .auth .auth-container .main {
+        @apply py-10 px-8 rounded-3xl border border-accent
+    }
+    .auth .auth-container .main form {
+        @apply flex flex-col mx-auto w-full
+    }
+    .auth .auth-container .main h4 {
+        @apply text-4xl	font-normal text-white mb-4
+    }
+    .auth .auth-container .main input {
+        @apply text-sm text-cove lg:w-96 w-full mb-2
+    }
+    .auth .auth-container .main .link {
+        @apply text-sm text-cove ml-auto mb-2.5
+    }
+}

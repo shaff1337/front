@@ -1,0 +1,19 @@
+@layer utilities {
+    .section {
+        @apply bg-secondary border border-accent rounded-md;
+    }
+
+    .basis-auto {
+        flex-basis: auto;
+    }
+
+    .shadow-error {
+        @apply shadow-red-400;
+        box-shadow: 0 0 0 1.5pt;
+    }
+
+    /*.shadow-neutral {*/
+    /*    @apply shadow-accent;*/
+    /*    box-shadow: 0 0 0 1.5pt;*/
+    /*}*/
+}
